@@ -1,4 +1,54 @@
-body{
-    background-color: #e1e1e1;
-};
+*{
 
+}
+
+
+
+body{
+    background-color: #efefef;
+}
+
+nav{
+    background-color: #6f6f6f;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}   
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav ul li{
+    background-color: #3b3b3b;
+    margin: 10px;
+}
+
+main{
+    background-color: #6f6f6f;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+section{
+    background-color: #3b3b33;
+    border-radius: 10px;
+}
+
+.sorting{
+    float: left;
+    width: 10px;
+    height: 500px;
+    
+}
+
+.searching{
+    float: right;
+    width: 50%;
+    height: 500px;
+    
+}
