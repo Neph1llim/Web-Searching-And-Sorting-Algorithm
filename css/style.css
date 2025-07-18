@@ -30,25 +30,24 @@ nav ul li{
 main{
     background-color: #6f6f6f;
     border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
+    width: 100%;
+    height: 100%;
 }
 
 section{
     background-color: #3b3b33;
     border-radius: 10px;
+    padding: 10px;
 }
 
 .sorting{
     float: left;
-    width: 10px;
+    width: 45%;
     height: 500px;
-    
 }
 
 .searching{
     float: right;
-    width: 50%;
+    width: 45%;
     height: 500px;
-    
 }
